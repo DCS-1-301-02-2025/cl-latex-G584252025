@@ -1,45 +1,33 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.6.1)  29 JUN 2025 16:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.4)  30 JUN 2025 14:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/minohara/Library/CloudStorage/Dropbox/01-University/01-Education/10-Lecture/Literacy/Exercise/LaTeX/sample.tex
-(/Users/minohara/Library/CloudStorage/Dropbox/01-University/01-Education/10-Lecture/Literacy/Exercise/LaTeX/sample.tex
-pLaTeX2e <2023-02-14u04>+1, based on
+**/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex
+(/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/uplatex/base/ujarticle.cls
-Document Class: ujarticle 2020/09/30 v1.8f-u00 Standard upLaTeX class
-\c@@paper=\count195
-(/usr/local/texlive/2025/texmf-dist/tex/uplatex/base/ujsize11.clo
-File: ujsize11.clo 2020/09/30 v1.8f-u00 Standard upLaTeX file (size option)
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 28.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 28.
-)
-\c@part=\count196
-\c@section=\count197
-\c@subsection=\count198
-\c@subsubsection=\count199
-\c@paragraph=\count266
-\c@subparagraph=\count267
-\c@figure=\count268
-\c@table=\count269
-\abovecaptionskip=\skip49
-\belowcaptionskip=\skip50
-\symmincho=\mathgroup4
-LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
-(Font)                  JY2/mc/m/n --> JY2/gt/m/n on input line 616.
-\toclineskip=\dimen157
-\@lnumwidth=\dimen158
-\bibindent=\dimen159
-\heisei=\count270
+
+/usr/local/texlive/2025/texmf-dist/tex/uplatex/base/ujarticle.cls:17: LaTeX Error: This file needs format `pLaTeX2e'
+               but this is `LaTeX2e'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 \NeedsTeXFormat{pLaTeX2e}
+                              
+The current input file will not be processed further,
+because it was written for some other flavor of TeX.
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks18
+\KV@toks@=\toks17
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
  (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
@@ -51,17 +39,30 @@ Package graphics Info: Driver file: dvipdfmx.def on input line 106.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
 File: dvipdfmx.def 2022/09/22 v5.0m Graphics/color driver for dvipdfmx
 ))
-\Gin@req@height=\dimen160
-\Gin@req@width=\dimen161
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-) (./layout.tex) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def
-File: l3backend-dvipdfmx.def 2024-05-08 L3 backend support: dvipdfmx
-\g__graphics_track_int=\count271
-\l__pdf_internal_box=\box69
-\g__pdf_backend_annotation_int=\count272
-\g__pdf_backend_link_int=\count273
+) (./layout.tex)
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:11: LaTeX Error: Backend request inconsistent with engine: using 'pdftex'
+(LaTeX)        backend.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.11 \begin{document}
+                     
+
+You have requested backend 'dvipdfmx', but this is not suitable for use with
+the active engine. LaTeX will use the 'pdftex' backend instead.
+
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count196
+\l__pdf_internal_box=\box52
 ) (./sample.aux)
 \openout1 = `sample.aux'.
 
@@ -79,64 +80,1749 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 16.62714pt on input line 13.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 16.62714pt on input line 13.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 13.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 13.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 13.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 13.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 13.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 13.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 13.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 15.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 15.
-LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 15.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 15.
-LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 15.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 15.
-File: possession.png Graphic file (type bmp)
-<possession.png>
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 42.
 
 
-[1
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:11: LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
 
-] (./sample.bbl)
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 \begin{document}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-[2] (./sample.aux)
- ***********
-pLaTeX2e <2023-02-14u04>+1, based on
-LaTeX2e <2024-11-01> patch level 2
-L3 programming layer <2025-01-18>
- ***********
- ) 
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:13: Undefined control sequence.
+l.13 \maketitle
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:15: Undefined control sequence.
+l.15 \section
+             {情報通信機器の保有状況}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:15: LaTeX Error: Unicode character 情 (U+60C5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \section{情
+                 報通信機器の保有状況}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:15: LaTeX Error: Unicode character 報 (U+5831)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \section{情報
+                    通信機器の保有状況}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:15: LaTeX Error: Unicode character 通 (U+901A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \section{情報通
+                       信機器の保有状況}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:15: LaTeX Error: Unicode character 信 (U+4FE1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \section{情報通信
+                          機器の保有状況}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:15: LaTeX Error: Unicode character 機 (U+6A5F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \section{情報通信機
+                             器の保有状況}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:15: LaTeX Error: Unicode character 器 (U+5668)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \section{情報通信機器
+                                の保有状況}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:15: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \section{情報通信機器の
+                                   保有状況}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:15: LaTeX Error: Unicode character 保 (U+4FDD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \section{情報通信機器の保
+                                      有状況}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:15: LaTeX Error: Unicode character 有 (U+6709)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \section{情報通信機器の保有
+                                         状況}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:15: LaTeX Error: Unicode character 状 (U+72B6)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \section{情報通信機器の保有状
+                                            況}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:15: LaTeX Error: Unicode character 況 (U+6CC1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \section{情報通信機器の保有状況
+                                               }
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:17: LaTeX Error: Unicode character 総 (U+7DCF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 総
+        務省が毎年実施している通信利用動向調査\cite{soumu...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:17: LaTeX Error: Unicode character 務 (U+52D9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 総務
+           省が毎年実施している通信利用動向調査\cite{soumu...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:17: LaTeX Error: Unicode character 省 (U+7701)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 総務省
+              が毎年実施している通信利用動向調査\cite{soumu...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:17: LaTeX Error: Unicode character が (U+304C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 総務省が
+                 毎年実施している通信利用動向調査\cite{soumu...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:17: LaTeX Error: Unicode character 毎 (U+6BCE)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 総務省が毎
+                    年実施している通信利用動向調査\cite{soumu...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:17: LaTeX Error: Unicode character 年 (U+5E74)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 総務省が毎年
+                       実施している通信利用動向調査\cite{soumu...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:17: LaTeX Error: Unicode character 実 (U+5B9F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 総務省が毎年実
+                          施している通信利用動向調査\cite{soumu...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:17: LaTeX Error: Unicode character 施 (U+65BD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 総務省が毎年実施
+                             している通信利用動向調査\cite{soumu...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:17: LaTeX Error: Unicode character し (U+3057)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 総務省が毎年実施し
+                                ている通信利用動向調査\cite{soumu...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:17: LaTeX Error: Unicode character て (U+3066)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 総務省が毎年実施して
+                                   いる通信利用動向調査\cite{soumu...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:17: LaTeX Error: Unicode character い (U+3044)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 総務省が毎年実施してい
+                                      る通信利用動向調査\cite{soumu...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:17: LaTeX Error: Unicode character る (U+308B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 総務省が毎年実施している
+                                         通信利用動向調査\cite{soumu...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:17: LaTeX Error: Unicode character 通 (U+901A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 総務省が毎年実施している通
+                                            信利用動向調査\cite{soumu...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:17: LaTeX Error: Unicode character 信 (U+4FE1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 総務省が毎年実施している通信
+                                               利用動向調査\cite{soumu...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:17: LaTeX Error: Unicode character 利 (U+5229)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 総務省が毎年実施している通信利
+                                                  用動向調査\cite{soumu...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:17: LaTeX Error: Unicode character 用 (U+7528)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...省が毎年実施している通信利用
+                                                  動向調査\cite{soumu}�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:17: LaTeX Error: Unicode character 動 (U+52D5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...が毎年実施している通信利用動
+                                                  向調査\cite{soumu}に�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:17: LaTeX Error: Unicode character 向 (U+5411)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...毎年実施している通信利用動向
+                                                  調査\cite{soumu}によ�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:17: LaTeX Error: Unicode character 調 (U+8ABF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...年実施している通信利用動向調
+                                                  査\cite{soumu}による�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:17: LaTeX Error: Unicode character 査 (U+67FB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...実施している通信利用動向調査
+                                                  \cite{soumu}によると，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:17: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.17 ...いる通信利用動向調査\cite{soumu}
+                                                  によると，
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `soumu' on page  undefined on input line 17.
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:17: LaTeX Error: Unicode character に (U+306B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...る通信利用動向調査\cite{soumu}に
+                                                  よると，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:17: LaTeX Error: Unicode character よ (U+3088)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...通信利用動向調査\cite{soumu}によ
+                                                  ると，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:17: LaTeX Error: Unicode character る (U+308B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...信利用動向調査\cite{soumu}による
+                                                  と，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:17: LaTeX Error: Unicode character と (U+3068)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...利用動向調査\cite{soumu}によると
+                                                  ，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:17: LaTeX Error: Unicode character ， (U+FF0C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...用動向調査\cite{soumu}によると，
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:18: LaTeX Error: Unicode character 図 (U+56F3)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 図
+        \ref{fig:保有率}に示すように，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:18: Undefined control sequence.
+<write> ...rence `fig:保有率' on page \thepage 
+                                                  \space undefined\on@line .
+l.18 図\ref{fig:保有率}
+                           に示すように，
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `fig:保有率' on page  undefined on input line 18.
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:18: LaTeX Error: Unicode character に (U+306B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 図\ref{fig:保有率}に
+                              示すように，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:18: LaTeX Error: Unicode character 示 (U+793A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 図\ref{fig:保有率}に示
+                                 すように，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:18: LaTeX Error: Unicode character す (U+3059)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 図\ref{fig:保有率}に示す
+                                    ように，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:18: LaTeX Error: Unicode character よ (U+3088)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 図\ref{fig:保有率}に示すよ
+                                       うに，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:18: LaTeX Error: Unicode character う (U+3046)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 図\ref{fig:保有率}に示すよう
+                                          に，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:18: LaTeX Error: Unicode character に (U+306B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 図\ref{fig:保有率}に示すように
+                                             ，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:18: LaTeX Error: Unicode character ， (U+FF0C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 図\ref{fig:保有率}に示すように，
+                                                
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:19: LaTeX Error: Unicode character 情 (U+60C5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 情
+        報通信機器の世帯保有率については，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:19: LaTeX Error: Unicode character 報 (U+5831)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 情報
+           通信機器の世帯保有率については，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:19: LaTeX Error: Unicode character 通 (U+901A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 情報通
+              信機器の世帯保有率については，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:19: LaTeX Error: Unicode character 信 (U+4FE1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 情報通信
+                 機器の世帯保有率については，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:19: LaTeX Error: Unicode character 機 (U+6A5F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 情報通信機
+                    器の世帯保有率については，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:19: LaTeX Error: Unicode character 器 (U+5668)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 情報通信機器
+                       の世帯保有率については，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:19: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 情報通信機器の
+                          世帯保有率については，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:19: LaTeX Error: Unicode character 世 (U+4E16)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 情報通信機器の世
+                             帯保有率については，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:19: LaTeX Error: Unicode character 帯 (U+5E2F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 情報通信機器の世帯
+                                保有率については，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:19: LaTeX Error: Unicode character 保 (U+4FDD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 情報通信機器の世帯保
+                                   有率については，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:19: LaTeX Error: Unicode character 有 (U+6709)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 情報通信機器の世帯保有
+                                      率については，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:19: LaTeX Error: Unicode character 率 (U+7387)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 情報通信機器の世帯保有率
+                                         については，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:19: LaTeX Error: Unicode character に (U+306B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 情報通信機器の世帯保有率に
+                                            ついては，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:19: LaTeX Error: Unicode character つ (U+3064)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 情報通信機器の世帯保有率につ
+                                               いては，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:19: LaTeX Error: Unicode character い (U+3044)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 情報通信機器の世帯保有率につい
+                                                  ては，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:19: LaTeX Error: Unicode character て (U+3066)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...通信機器の世帯保有率について
+                                                  は，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:19: LaTeX Error: Unicode character は (U+306F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...信機器の世帯保有率については
+                                                  ，
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:19: LaTeX Error: Unicode character ， (U+FF0C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...機器の世帯保有率については，
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:20: LaTeX Error: Unicode character 携 (U+643A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 携
+        帯電話やスマートフォンなどのモバイル端末では�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:20: LaTeX Error: Unicode character 帯 (U+5E2F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 携帯
+           電話やスマートフォンなどのモバイル端末では�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:20: LaTeX Error: Unicode character 電 (U+96FB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 携帯電
+              話やスマートフォンなどのモバイル端末では�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:20: LaTeX Error: Unicode character 話 (U+8A71)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 携帯電話
+                 やスマートフォンなどのモバイル端末では�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:20: LaTeX Error: Unicode character や (U+3084)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 携帯電話や
+                    スマートフォンなどのモバイル端末では�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:20: LaTeX Error: Unicode character ス (U+30B9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 携帯電話やス
+                       マートフォンなどのモバイル端末では�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:20: LaTeX Error: Unicode character マ (U+30DE)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 携帯電話やスマ
+                          ートフォンなどのモバイル端末では�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:20: LaTeX Error: Unicode character ー (U+30FC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 携帯電話やスマー
+                             トフォンなどのモバイル端末では�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:20: LaTeX Error: Unicode character ト (U+30C8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 携帯電話やスマート
+                                フォンなどのモバイル端末では�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:20: LaTeX Error: Unicode character フ (U+30D5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 携帯電話やスマートフ
+                                   ォンなどのモバイル端末では�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:20: LaTeX Error: Unicode character ォ (U+30A9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 携帯電話やスマートフォ
+                                      ンなどのモバイル端末では�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:20: LaTeX Error: Unicode character ン (U+30F3)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 携帯電話やスマートフォン
+                                         などのモバイル端末では�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:20: LaTeX Error: Unicode character な (U+306A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 携帯電話やスマートフォンな
+                                            どのモバイル端末では�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:20: LaTeX Error: Unicode character ど (U+3069)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 携帯電話やスマートフォンなど
+                                               のモバイル端末では�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:20: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 携帯電話やスマートフォンなどの
+                                                  モバイル端末では�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:20: LaTeX Error: Unicode character モ (U+30E2)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...電話やスマートフォンなどのモ
+                                                  バイル端末では，9�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:20: LaTeX Error: Unicode character バ (U+30D0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...話やスマートフォンなどのモバ
+                                                  イル端末では，9割�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:20: LaTeX Error: Unicode character イ (U+30A4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...やスマートフォンなどのモバイ
+                                                  ル端末では，9割を�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:20: LaTeX Error: Unicode character ル (U+30EB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...スマートフォンなどのモバイル
+                                                  端末では，9割を越�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:20: LaTeX Error: Unicode character 端 (U+7AEF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...マートフォンなどのモバイル端
+                                                  末では，9割を越え�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:20: LaTeX Error: Unicode character 末 (U+672B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...ートフォンなどのモバイル端末
+                                                  では，9割を越えて�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:20: LaTeX Error: Unicode character で (U+3067)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...トフォンなどのモバイル端末で
+                                                  は，9割を越えてい�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:20: LaTeX Error: Unicode character は (U+306F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...フォンなどのモバイル端末では
+                                                  ，9割を越えている．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:20: LaTeX Error: Unicode character ， (U+FF0C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...ォンなどのモバイル端末では，
+                                                  9割を越えている．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:20: LaTeX Error: Unicode character 割 (U+5272)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...��などのモバイル端末では，9割
+                                                  を越えている．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:20: LaTeX Error: Unicode character を (U+3092)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...��どのモバイル端末では，9割を
+                                                  越えている．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:20: LaTeX Error: Unicode character 越 (U+8D8A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...��のモバイル端末では，9割を越
+                                                  えている．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:20: LaTeX Error: Unicode character え (U+3048)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...��モバイル端末では，9割を越え
+                                                  ている．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:20: LaTeX Error: Unicode character て (U+3066)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...��バイル端末では，9割を越えて
+                                                  いる．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:20: LaTeX Error: Unicode character い (U+3044)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...��イル端末では，9割を越えてい
+                                                  る．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:20: LaTeX Error: Unicode character る (U+308B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...��ル端末では，9割を越えている
+                                                  ．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:20: LaTeX Error: Unicode character ． (U+FF0E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...��端末では，9割を越えている．
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character そ (U+305D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 そ
+        の中でも，スマートフォンの普及が進んでおり，8�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 その
+           中でも，スマートフォンの普及が進んでおり，8�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character 中 (U+4E2D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 その中
+              でも，スマートフォンの普及が進んでおり，8�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character で (U+3067)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 その中で
+                 も，スマートフォンの普及が進んでおり，8�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character も (U+3082)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 その中でも
+                    ，スマートフォンの普及が進んでおり，8�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character ， (U+FF0C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 その中でも，
+                       スマートフォンの普及が進んでおり，8�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character ス (U+30B9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 その中でも，ス
+                          マートフォンの普及が進んでおり，8�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character マ (U+30DE)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 その中でも，スマ
+                             ートフォンの普及が進んでおり，8�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character ー (U+30FC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 その中でも，スマー
+                                トフォンの普及が進んでおり，8�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character ト (U+30C8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 その中でも，スマート
+                                   フォンの普及が進んでおり，8�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character フ (U+30D5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 その中でも，スマートフ
+                                      ォンの普及が進んでおり，8�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character ォ (U+30A9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 その中でも，スマートフォ
+                                         ンの普及が進んでおり，8�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character ン (U+30F3)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 その中でも，スマートフォン
+                                            の普及が進んでおり，8�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 その中でも，スマートフォンの
+                                               普及が進んでおり，8�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character 普 (U+666E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 その中でも，スマートフォンの普
+                                                  及が進んでおり，8�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character 及 (U+53CA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...中でも，スマートフォンの普及
+                                                  が進んでおり，8割�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character が (U+304C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...でも，スマートフォンの普及が
+                                                  進んでおり，8割以�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character 進 (U+9032)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...も，スマートフォンの普及が進
+                                                  んでおり，8割以上�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character ん (U+3093)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...，スマートフォンの普及が進ん
+                                                  でおり，8割以上の�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character で (U+3067)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...スマートフォンの普及が進んで
+                                                  おり，8割以上の世�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character お (U+304A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...マートフォンの普及が進んでお
+                                                  り，8割以上の世帯�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character り (U+308A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...ートフォンの普及が進んでおり
+                                                  ，8割以上の世帯で�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character ， (U+FF0C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...トフォンの普及が進んでおり，
+                                                  8割以上の世帯で保�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character 割 (U+5272)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...��ォンの普及が進んでおり，8割
+                                                  以上の世帯で保有�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character 以 (U+4EE5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...��ンの普及が進んでおり，8割以
+                                                  上の世帯で保有し�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character 上 (U+4E0A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...��の普及が進んでおり，8割以上
+                                                  の世帯で保有して�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...��普及が進んでおり，8割以上の
+                                                  世帯で保有してい�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character 世 (U+4E16)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...��及が進んでおり，8割以上の世
+                                                  帯で保有している．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character 帯 (U+5E2F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...��が進んでおり，8割以上の世帯
+                                                  で保有している．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character で (U+3067)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...��進んでおり，8割以上の世帯で
+                                                  保有している．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character 保 (U+4FDD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...��んでおり，8割以上の世帯で保
+                                                  有している．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character 有 (U+6709)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...��でおり，8割以上の世帯で保有
+                                                  している．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character し (U+3057)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...��おり，8割以上の世帯で保有し
+                                                  ている．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character て (U+3066)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...��り，8割以上の世帯で保有して
+                                                  いる．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21: LaTeX Error: Unicode character い (U+3044)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...��，8割以上の世帯で保有してい
+                                                  る．
+(That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:
- 1084 strings out of 473836
- 18202 string characters out of 5731191
- 412046 words of memory out of 5000000
- 24377 multiletter control sequences out of 15000+600000
- 568047 words of font info for 81 fonts, out of 8000000 for 9000
- 929 hyphenation exceptions out of 8191
- 57i,8n,65p,308b,304s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 838 strings out of 473190
+ 14821 string characters out of 5715801
+ 400136 words of memory out of 5000000
+ 24149 multiletter control sequences out of 15000+600000
+ 559145 words of font info for 37 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,1n,65p,246b,79s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on sample.dvi (2 pages, 4660 bytes).
+/Users/ou/Desktop/Literacy/cl-latex-G584252025/sample.tex:21:  ==> Fatal error occurred, no output PDF file produced!
